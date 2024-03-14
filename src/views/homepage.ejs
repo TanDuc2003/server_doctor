@@ -5,6 +5,10 @@
     <title>NguyenTanDuc Nodejs</title>
 </head>
 <body>
-    <h1>Hello word with Web</h1>
+    <h1>Hello world with Web</h1>
+    <pre class="json" ><%=data%></pre>
+    <script>
+        const jsonElement = document.querySelector('.json');
+        prettyPrintJson(jsonElement.innerText);
+    </script>
 </body>
-</html>
